@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "forms_editor"
+version = "0.1.0"
+description = "Site that allows users create custom forms with specified form name and set of fields"
+authors = ["Denzzelindahouse <deniro-094@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^4.0.4"
+
+[tool.poetry.dev-dependencies]
+Django = "^4.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
